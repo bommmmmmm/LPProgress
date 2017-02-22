@@ -13,9 +13,9 @@
 
 @property (nonatomic, assign) CGFloat count;
 
-//@property (nonatomic, strong) UIColor *taskColor;// 后面点的颜色；
+@property (nonatomic, strong) UIColor *taskColor;// 后面点的颜色；
 //
-//@property (nonatomic, strong) UIColor *processColor;// 实际进程点的颜色
+@property (nonatomic, strong) UIColor *processColor;// 实际进程点的颜色
 
 @property (nonatomic, assign) CGFloat width;
 

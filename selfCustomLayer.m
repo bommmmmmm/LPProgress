@@ -26,7 +26,7 @@
 - (void)drawRect:(CGRect)rect
 {
 
-    const CGFloat *components = CGColorGetComponents([MyManager shareInstance].progressColor.CGColor);
+    const CGFloat *components = CGColorGetComponents(self.progressColor.CGColor);
     
     // 确认中心点
     
